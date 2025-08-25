@@ -23,7 +23,7 @@ const page = () => {
     <div className="aboutPageContainer">
         <div className="mainCopyHeader">
             <Image
-            src="/images/hp_img_1.png"
+            src="./images/hp_img_1.png"
             alt="Facebook"
             width={900}
             height={951}
@@ -39,7 +39,7 @@ const page = () => {
             <a href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app" target="_blank" rel="noopener noreferrer">Enroll Now</a>
         </div>        
         <Image
-        src="/images/about_images/accred_img.png"
+        src="./images/about_images/accred_img.png"
         alt="Facebook"
         width={300}
         height={351}
