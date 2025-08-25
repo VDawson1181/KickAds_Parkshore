@@ -45,17 +45,17 @@ export default function Home() {
   const featureGalImgs = [
     {
     name: "Activities",
-    src: "./images/feature_imgs/feat_img_1.png",
+    src: "./images/feature_imgs/feat_Img_1.png",
     pageUrl: "https://fourseasonsroofingny.com/residential-roofing/"          
     },
     {
     name: "Programs",
-    src: "./images/feature_imgs/feat_img_2.png",
+    src: "./images/feature_imgs/feat_Img_2.png",
     pageUrl: "https://fourseasonsroofingny.com/residential-home-services/"
     },
     {
     name: "Rates",
-    src: "./images/feature_imgs/feat_img_3.png",
+    src: "./images/feature_imgs/feat_Img_3.png",
     pageUrl: "https://fourseasonsroofingny.com/residential-outdoor-living/"
     }
   ];
