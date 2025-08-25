@@ -1,0 +1,247 @@
+.clock-container{
+    /* width: fit-content; */
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0px 0px 50px;
+    background-color: #20428d;
+    /* backdrop-filter: blur(15px); */
+    border-radius: 0 0 20px 20px;
+    /* border: 2px solid rgba(5, 255, 9, 0.495); */
+    border-top: 0;
+    /* translate: 0 -120px; */
+    position: relative;
+    z-index: 10;
+
+    .clock-container-over{
+      text-align: center;
+      font-weight: 700;
+      text-transform: uppercase;
+
+      h2{ 
+          font-size: 3.75rem;
+          line-height: 1.25em;
+          color: var(--ftrFontClr);
+      }
+      h3{
+          font-size: 6rem;
+          line-height: 1em;
+          color: var(--hdrFontSec);
+      }
+    }
+
+    
+    .clock-container-inner{        
+        width: 100%;
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 50px;
+        justify-content: center;
+        justify-items: center;
+        align-items:center;
+        /* padding: 10px 5px; */
+        
+        .clockFeatureText{
+            text-align: left;
+            font-weight: 700;
+            /* text-shadow: 3px 3px 5px hsla(0, 0%, 100%, 0.75); */
+            text-transform: uppercase;
+            margin: 0;
+            padding: 0;
+            translate: 0 -15px;
+
+            h2{ 
+                font-size: 2rem;
+                line-height: 2em;
+                color: var(--ftrFontClr);
+            }
+            h3{
+                font-size: 4rem;
+                line-height: 1em;
+                color: var(--hdrFontSec);
+            }
+        }
+
+        .singleClock{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          gap: 5px;
+
+                      /* font-family: monospace; */
+            color: #000;
+            margin: 0;
+            font-size: 4rem;
+            font-weight: bold;
+            /* text-shadow: 3px 3px 5px hsla(0, 0%, 100%, 0.75); */
+
+          p{
+              display: flex;
+              align-items: flex-end;
+              
+              &.Sep{
+                font-size: 3rem;
+                translate: 0px -15px;
+              }
+              &.meridiem{
+                font-size: 2rem;
+                translate: 0px -12px;
+              }
+          }
+        }
+
+    
+        .clock{
+            /* font-family: monospace; */
+            color: var(--ftrFontClr);
+            margin: 0;
+            padding: 0;
+            font-size: 4rem;
+            font-weight: bold;
+            /* text-shadow: 3px 3px 5px hsla(0, 0%, 100%, 0.75); */
+            display: flex;
+            justify-content: center;
+            align-content: center;
+          
+          & li.Sep{
+            padding: 0 10px;
+            font-size: 3rem;
+            display: flex;
+            align-items: center;
+            opacity: 0;
+          }
+          
+          & li{
+            list-style-type: none;
+            position: relative;
+            
+            & .clock-numbers{
+              position: absolute;
+              left: 0;
+              right: 0;
+              top: 15px;
+            }
+            
+            & span.definer{
+              font-size: 1rem;
+              text-transform: uppercase;
+              color: #95a5c9;
+              position: absolute;
+              left: 0;
+              right: 0;
+              bottom: 0px;
+            }
+          }
+        }
+      
+      .percentages{ 
+        padding-top: 20px;
+        
+        li{
+          list-style-type: none;
+        }
+      }
+    }
+}
+
+
+/*Progress Bar styles  */
+
+@property --progress{
+  syntax: "<length-percentage>";
+  inherits: false;
+  initial-value: 0%;
+}
+
+[role="progressbar"]{
+  --size: 132px;
+  --bar-width: 15px;
+  
+  font-size: 3rem;
+  width: var(--size);
+  aspect-ratio: 1/1;
+  margin: 0 auto;
+  background: conic-gradient(
+    var(--color-dark),
+    var(--color-dark) var(--progress),
+    var(--color-dark-glare) 0%
+  );
+  border-radius: 50vmax;
+  
+  display: grid;
+  place-items: center;
+  
+  transition: --progress 500ms linear;
+  
+  > span{
+    font-size: 0.05rem;
+    display: none;
+  }
+}
+
+[role="progressbar"]::after{
+/*     content: attr(aria-timenow); */
+    content: "";
+    background: var(--background);
+    border-radius: inherit;
+    width: calc(100% - var(--bar-width));
+    aspect-ratio: 1/1;    
+    display: grid;
+    place-items: center;
+  }
+
+/*When progress === 100  */
+[role="progressbar"][aria-valuenow="100"]::after{
+  animation: progressComplete 0s forwards;
+  animation-delay: 1000ms;
+}
+  
+@keyframes progressComplete{
+  to{
+    content: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODUiIGhlaWdodD0iODUiIHZpZXdCb3g9IjUgMzAgNzUgMTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0zNS40MjM3IDUzLjczMjdMNjcuOTc4NyAyMS4xNzc3TDcyLjk4OTUgMjYuMTg0MkwzNS40MTk1IDYzLjc1TDEyLjg4NiA0MS4yMTIyTDE3Ljg5MjUgMzYuMjAxNUwzNS40MjM3IDUzLjczMjdaIiBmaWxsPSIjMWYxYTM4Ii8+Cjwvc3ZnPgo=");
+    background-color: var(--color-success);    
+  }
+}
+
+/*If JS is not enabled  */
+.progressbar:not([role="progressbar"]){
+  position: relative;
+  &::after {
+    display: none;
+  }
+  span {
+    font-size: 0.5rem;
+    text-align: center;
+    color: var(--color-success-dark);
+  }
+}
+
+
+/* General styling and testing ground style */
+@layer general-styling-and-whatnot {
+  :root {
+    /* --font-base: "Space Mono", monospace; */
+    --color-dark: #2e5da2;
+    --color-dark-glare: #57afe2;
+    --color-success: #76f7bf;
+    --color-success-dark: #2d7a59;
+  }
+
+  /* * {
+    box-sizing: border-box;
+  } */
+
+  /* body {
+    color: var(--color-dark);
+    margin-inline: auto;
+    margin-block: 3rem;
+  }
+
+  a {
+    color: var(--color-dark);
+
+    &:is(:hover, :focus) {
+      color: var(--color-success-dark);
+    }
+  } */
+}

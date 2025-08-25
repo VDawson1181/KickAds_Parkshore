@@ -1,0 +1,37 @@
+
+/* Carousel styles start */
+#mainContainer{
+    min-width: 950px;
+  /* translate: 0 -120px; */
+  margin-top: -120px;
+
+  #heroSection{
+    height: 775px;
+    overflow: hidden;
+    background-color: #57afe2;
+    display: flex;
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 85%);    
+    /* position: relative; */
+    /* z-index: 5; */
+    /* top: -120px; */
+    /* height: 50vh; */    
+    overflow: hidden;
+  
+    div{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 50vh;
+      width: 100%;
+      /* z-index: 2; */
+
+    img{
+        /* mask: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 5%, rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 0) 100%); */
+        /* This creates a fade from transparent to opaque and back to transparent on the horizontal axis. */
+      }
+    }
+  }
+}
+/* Carousel styles end */

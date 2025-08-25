@@ -1,0 +1,28 @@
+/* Main Copy */
+.mainCopy{
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+
+  .mainCopyInner{
+    min-width: 950px;
+    margin: 0 auto;
+    padding: 40px;
+    
+    h1{
+      color: #57afe2;
+      font-weight: 900;
+      font-size: 6rem;
+      line-height: 1em;
+    }
+    
+    p{
+      margin-top: 20px;
+      color: var(--fntMainClr);
+      font-weight: 700;
+      font-size: 2.5rem;
+      line-height: 1.5em;
+    }
+  }
+}
+/* Main Copy */

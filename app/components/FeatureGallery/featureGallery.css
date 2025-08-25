@@ -1,0 +1,41 @@
+/* Feature Gallery */
+.featureGallery{
+  background-color: var(--hdrFontSec);
+  padding: 20px;
+
+  .featureMid{
+    display: grid;
+    /* background-color: var(--hdrFontSec); */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-content: center;
+    gap: 20px;
+    /* padding: 20px; */
+    
+    .featureItem{
+      /* background-color: lime; */
+      position: relative;
+      border-radius: 60px;
+      /* overflow: hidden;     */
+      
+      img{
+        position: relative;
+        z-index: 1;
+      }
+  
+      h2{
+        background-color: var(--hdrFontSec);
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 900;
+        border-radius: 50px 0 0 0;
+        padding: 20px 28px 10px 50px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 2;
+      }
+    }
+  }
+} 
+
+/* Feature Gallery */

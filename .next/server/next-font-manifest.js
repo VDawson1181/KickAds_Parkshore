@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/vdawson647/Desktop/KickAds/ParkShore/ParkShore/app/layout\":[\"static/media/569ce4b8f30dc480-s.p.woff2\",\"static/media/93f479601ee12b01-s.p.woff2\",\"static/media/40d40f0f334d7ad1-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
