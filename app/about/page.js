@@ -9,7 +9,7 @@ import './about.css';
 const page = () => {
     const mainHeaderCopy = [
         { 
-            imgSrc: "/images/carousel_imgs/Carousel_Img_2.jpg",
+            imgSrc: "./images/carousel_imgs/Carousel_Img_2.jpg",
             header: "About Park Shore"
         },
     ];
@@ -26,7 +26,7 @@ const page = () => {
             <a href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app" target="_blank" rel="noopener noreferrer">Enroll Now</a>
         </div>        
         <Image
-        src="/images/about_images/accred_img.png"
+        src="./images/about_images/accred_img.png"
         alt="Facebook"
         width={300}
         height={351}

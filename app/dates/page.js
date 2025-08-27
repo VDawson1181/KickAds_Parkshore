@@ -10,7 +10,7 @@ const page = () => {
 
     const mainHeaderCopy = [
         { 
-            imgSrc: "/images/carousel_imgs/Carousel_Img_2.jpg",
+            imgSrc: "./images/carousel_imgs/Carousel_Img_2.jpg",
             header: "Dates & Rates"
         },
     ];

@@ -18,14 +18,14 @@ const page = () => {
     // }, []); // Empty dependency array ensures this runs once after initial render
     const mainHeaderCopy = [
         { 
-            imgSrc: "/images/carousel_imgs/Carousel_Img_3.jpg",
+            imgSrc: "./images/carousel_imgs/Carousel_Img_3.jpg",
             header: "Programs"
         },
     ];
     const leftImgContentTop = [
             { 
             imgName: "Girl on rocks",
-            imgSrc: "/images/hp_img_1.png",
+            imgSrc: "./images/hp_img_1.png",
             content: `
             <h1>Toddler Programs<br>(2 year olds)</h1>
             <p>You've heard them say their first word. You've seen
@@ -56,7 +56,7 @@ const page = () => {
     const rightImgContentMid = [
             { 
             imgName: "Kids on floor",
-            imgSrc: "/images/hp_img_2.png",
+            imgSrc: "./images/hp_img_2.png",
             content: `
             <h1>Preschoolers (Ages 3-4)<br>Day Campers</h1>
             <p>Our Preschool campers have the opportunity to
@@ -92,7 +92,7 @@ const page = () => {
         const leftImgContentBot = [
                 { 
                 imgName: "Kids on floor",
-                imgSrc: "/images/carousel_imgs/Carousel_Img_1.jpg",
+                imgSrc: "./images/carousel_imgs/Carousel_Img_1.jpg",
                 content: `
                 <h1>Juniors (K-1)- Day Campers</h1>
                 <p>As Juniors, these campers have reached a new level
