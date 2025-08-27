@@ -7,13 +7,6 @@ import ButtonElement from '../components/Button/button';
 import './about.css';
 
 const page = () => {
-
-    // useEffect(() => {
-    //   const headerContainer = document.querySelector('.mainCopyHeader .headerCopy');
-    //   const headerTitle = document.querySelector('.mainCopyHeader .headerCopy h2');
-    //   let headerClone = headerTitle.cloneNode(true);
-    //   headerContainer.appendChild(headerClone);      
-    // }, []); // Empty dependency array ensures this runs once after initial render
     const mainHeaderCopy = [
         { 
             imgSrc: "/images/carousel_imgs/Carousel_Img_2.jpg",
