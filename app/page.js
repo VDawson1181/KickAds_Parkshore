@@ -13,49 +13,49 @@ export default function Home() {
   const pictures = [
           {
           name: "Girl Playing",
-          url: "./images/carousel_imgs/Carousel_Img_1.jpg",
+          url: "/images/carousel_imgs/Carousel_Img_1.jpg",
           pageUrl: "https://fourseasonsroofingny.com/residential-roofing/"          
           },
           {
           name: "Boys On Bars",
-          url: "./images/carousel_imgs/Carousel_Img_2.jpg",
+          url: "/images/carousel_imgs/Carousel_Img_2.jpg",
           pageUrl: "https://fourseasonsroofingny.com/residential-home-services/"
           },
           {
           name: "Boy and Project",
-          url: "./images/carousel_imgs/Carousel_Img_3.jpg",
+          url: "/images/carousel_imgs/Carousel_Img_3.jpg",
           pageUrl: "https://fourseasonsroofingny.com/residential-outdoor-living/"
           },
           {
           name: "Teens Smiling",
-          url: "./images/carousel_imgs/Carousel_Img_4.jpg",
+          url: "/images/carousel_imgs/Carousel_Img_4.jpg",
           pageUrl: "https://fourseasonsroofingny.com/masonry-decking/"
           },
           {
           name: "Boys on Slide",
-          url: "./images/carousel_imgs/Carousel_Img_5.jpg",
+          url: "/images/carousel_imgs/Carousel_Img_5.jpg",
           pageUrl: "https://fourseasonsroofingny.com/residential-roofing/#metal-copper"
           },
           {  
           name: "Boy on Swing",
-          url: "./images/carousel_imgs/Carousel_Img_6.jpg",
+          url: "/images/carousel_imgs/Carousel_Img_6.jpg",
           pageUrl: "https://fourseasonsroofingny.com/residential-roofing/"
           }
       ];
   const featureGalImgs = [
     {
     name: "Activities",
-    src: "./images/feature_imgs/feat_Img_1.png",
+    src: "/images/feature_imgs/feat_img_1.png",
     pageUrl: "https://fourseasonsroofingny.com/residential-roofing/"          
     },
     {
     name: "Programs",
-    src: "./images/feature_imgs/feat_Img_2.png",
+    src: "/images/feature_imgs/feat_img_2.png",
     pageUrl: "https://fourseasonsroofingny.com/residential-home-services/"
     },
     {
     name: "Rates",
-    src: "./images/feature_imgs/feat_Img_3.png",
+    src: "/images/feature_imgs/feat_img_3.png",
     pageUrl: "https://fourseasonsroofingny.com/residential-outdoor-living/"
     }
   ];
@@ -67,14 +67,14 @@ export default function Home() {
   const leftImgContent = [
     { 
       imgName: "Girl on rocks",
-      imgSrc: "./images/hp_img_1.png",
+      imgSrc: "/images/hp_img_1.png",
       content: '<h1>Park Shore Country Day Camp</h1><p>Park Shore Country Day Camp offers an unforgettable summer experience for children ages 2-15 on our beautiful 15-acre campus. Enjoy all the classic day camp activities with flexible scheduling options— choose 4, 6, or 8 weeks to fit your summer plans.</p><button>Learn More</button>'
     },
   ];
   const rightImgContent = [
     { 
       imgName: "Kids on floor",
-      imgSrc: "./images/hp_img_2.png",
+      imgSrc: "/images/hp_img_2.png",
       content: '<h1>Park Shore Country School</h1><p>Park Shore Preschool offers an exceptional program for children ages Toddler through Pre-K, combining academics, social development, and creative exploration. Our nurturing environment prepares children for future success with engaging activities, including early literacy, hands-on science, art, music, and imaginative play.</p><button>Learn More</button>'
     },
   ];
