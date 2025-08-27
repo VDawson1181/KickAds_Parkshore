@@ -1,0 +1,240 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./app/components/MainCopyBlock/mainCopyBlock.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+/* Main Copy */
+.mainCopy{
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+
+  .mainCopyInner{
+    min-width: 950px;
+    margin: 0 auto;
+    padding: 40px;
+    
+    h1{
+      color: #57afe2;
+      font-weight: 900;
+      font-size: 6rem;
+      line-height: 1em;
+    }
+    
+    p{
+      margin-top: 20px;
+      color: var(--fntMainClr);
+      font-weight: 700;
+      font-size: 2.5rem;
+      line-height: 1.5em;
+    }
+  }
+}
+/* Main Copy */
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./app/components/MainCopyHeader/mainCopyHeader.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+/* Main Copy */
+.mainCopyHeader{
+        /* max-height: 650px; */
+        text-align: center;
+        font-weight: 900;
+        /* text-transform: uppercase; */
+        font-size: 3.5rem;
+        /* color: var(--fntMainClr); */
+        position: relative;
+        /* margin-bottom: 20px; */
+        border-bottom: 19px solid var(--fntMainClr);
+
+        /* div{} */
+        h2{
+            position: absolute;
+            bottom: -15px;
+            left: 50px;
+            font-size: 4.5rem;
+            line-height: 1em;
+            color: #fff;
+            text-shadow: rgb(32, 66, 141) 10px 0px 0px, rgb(32, 66, 141) 9.95004px 0.998334px 0px, rgb(32, 66, 141) 9.80067px 1.98669px 0px, rgb(32, 66, 141) 9.55336px 2.9552px 0px, rgb(32, 66, 141) 9.21061px 3.89418px 0px, rgb(32, 66, 141) 8.77583px 4.79426px 0px, rgb(32, 66, 141) 8.25336px 5.64642px 0px, rgb(32, 66, 141) 7.64842px 6.44218px 0px, rgb(32, 66, 141) 6.96707px 7.17356px 0px, rgb(32, 66, 141) 6.2161px 7.83327px 0px, rgb(32, 66, 141) 5.40302px 8.41471px 0px, rgb(32, 66, 141) 4.53596px 8.91207px 0px, rgb(32, 66, 141) 3.62358px 9.32039px 0px, rgb(32, 66, 141) 2.67499px 9.63558px 0px, rgb(32, 66, 141) 1.69967px 9.8545px 0px, rgb(32, 66, 141) 0.707372px 9.97495px 0px, rgb(32, 66, 141) -0.291995px 9.99574px 0px, rgb(32, 66, 141) -1.28844px 9.91665px 0px, rgb(32, 66, 141) -2.27202px 9.73848px 0px, rgb(32, 66, 141) -3.2329px 9.463px 0px, rgb(32, 66, 141) -4.16147px 9.09297px 0px, rgb(32, 66, 141) -5.04846px 8.63209px 0px, rgb(32, 66, 141) -5.88501px 8.08496px 0px, rgb(32, 66, 141) -6.66276px 7.45705px 0px, rgb(32, 66, 141) -7.37394px 6.75463px 0px, rgb(32, 66, 141) -8.01144px 5.98472px 0px, rgb(32, 66, 141) -8.56889px 5.15501px 0px, rgb(32, 66, 141) -9.04072px 4.2738px 0px, rgb(32, 66, 141) -9.42222px 3.34988px 0px, rgb(32, 66, 141) -9.70958px 2.39249px 0px, rgb(32, 66, 141) -9.89993px 1.4112px 0px, rgb(32, 66, 141) -9.99135px 0.415807px 0px, rgb(32, 66, 141) -9.98295px -0.583741px 0px, rgb(32, 66, 141) -9.8748px -1.57746px 0px, rgb(32, 66, 141) -9.66798px -2.55541px 0px, rgb(32, 66, 141) -9.36457px -3.50783px 0px, rgb(32, 66, 141) -8.96758px -4.4252px 0px, rgb(32, 66, 141) -8.481px -5.29836px 0px, rgb(32, 66, 141) -7.90968px -6.11858px 0px, rgb(32, 66, 141) -7.25932px -6.87766px 0px, rgb(32, 66, 141) -6.53644px -7.56803px 0px, rgb(32, 66, 141) -5.74824px -8.18277px 0px, rgb(32, 66, 141) -4.90261px -8.71576px 0px, rgb(32, 66, 141) -4.00799px -9.16166px 0px, rgb(32, 66, 141) -3.07333px -9.51602px 0px, rgb(32, 66, 141) -2.10796px -9.7753px 0px, rgb(32, 66, 141) -1.12153px -9.93691px 0px, rgb(32, 66, 141) -0.123887px -9.99923px 0px, rgb(32, 66, 141) 0.87499px -9.96165px 0px, rgb(32, 66, 141) 1.86512px -9.82453px 0px, rgb(32, 66, 141) 2.83662px -9.58924px 0px, rgb(32, 66, 141) 3.77978px -9.25815px 0px, rgb(32, 66, 141) 4.68517px -8.83455px 0px, rgb(32, 66, 141) 5.54374px -8.32267px 0px, rgb(32, 66, 141) 6.34693px -7.72764px 0px, rgb(32, 66, 141) 7.0867px -7.0554px 0px, rgb(32, 66, 141) 7.75566px -6.31267px 0px, rgb(32, 66, 141) 8.34713px -5.50686px 0px, rgb(32, 66, 141) 8.8552px -4.64602px 0px, rgb(32, 66, 141) 9.27478px -3.73877px 0px, rgb(32, 66, 141) 9.6017px -2.79415px 0px, rgb(32, 66, 141) 9.83268px -1.82162px 0px, rgb(32, 66, 141) 9.96542px -0.830894px 0px;
+            /* Adds shadows in four directions to simulate an outline */
+        }
+
+    }
+/* Main Copy */
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./app/components/ContentImgLeft/contentImgLeft.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+/* content image right / left */
+.content_image_left{
+  display: grid;
+  background-color: #fff;
+  /* margin: 20px 0; */
+  padding: 20px 0 50px;
+  grid-template-columns: 50% auto;
+  gap: 30px;
+  overflow: hidden;
+
+  div{
+    translate: 0px -20px;
+    h1{
+      font-size: 3rem;
+      line-height: 1.2em;
+      color: var(--fntMainClr);
+      font-weight: 900;
+      margin: 0;
+      padding: 0;
+    }
+    p{
+      color: var(--fntSecClr);
+      font-size: 1.5rem;
+      line-height: 1.5em;
+      margin: 20px 0;
+    }
+    button{
+      margin-top: 10px;
+      background-color: var(--fntMainClr);
+      color: #fff;
+      border: none;
+      border-radius: 50px;
+      padding: 10px 20px;
+      font-size: 1.5rem;
+      font-weight: 900;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover{
+        background-color: #459acb;
+      }
+    }
+  }
+  
+  
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    overflow: hidden;    
+    /*     position: sticky; */
+    /*     top: 20px; */
+  }
+}
+.content_image_left{
+  div{ padding-right: 50px; }
+  img{border-radius: 0 30px 30px 0;} 
+} 
+
+/*Mobile Styles*/
+@media only screen and (max-width: 950px) {
+.content_image_left{
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% auto;
+    gap: 10px;
+    
+    div{
+      order: 1;
+      text-align: center;
+    }
+
+    img{
+      order: 0;
+      position: relative;
+/*       top: 20px; */
+    }
+  }
+
+  .content_image_left img{border-radius: 30px;} 
+}
+/* content image right / left */
+/*!************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./app/components/ContentImgRight/contentImgRight.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************/
+/* content image right / left */
+.content_image_right{
+  display: grid;
+  background-color: #fff;
+  /* margin: 20px 0; */
+  padding: 20px 0 50px;
+  grid-template-columns: 50% auto;
+  gap: 30px;
+  overflow: hidden;
+
+  div{
+    translate: 0px -20px;
+    h1{
+      font-size: 3rem;
+      line-height: 1.2em;
+      color: var(--fntMainClr);
+      font-weight: 900;
+      margin: 0;
+      padding: 0;
+    }
+    p{
+      color: var(--fntSecClr);
+      font-size: 1.5rem;
+      line-height: 1.5em;
+      margin: 20px 0;
+    }
+    button{
+      margin-top: 10px;
+      background-color: var(--fntMainClr);
+      color: #fff;
+      border: none;
+      border-radius: 50px;
+      padding: 10px 20px;
+      font-size: 1.5rem;
+      font-weight: 900;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover{
+        background-color: #459acb;
+      }
+    }
+  }
+  
+  
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    overflow: hidden;    
+    /*     position: sticky; */
+    /*     top: 20px; */
+  }
+}
+.content_image_right{
+  div{ padding-left: 50px; }
+  img{border-radius: 30px 0 0 30px ;}
+} 
+
+
+/*Mobile Styles*/
+@media only screen and (max-width: 950px) {
+.content_image_left{
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% auto;
+    gap: 10px;
+    
+    div{
+      order: 1;
+      text-align: center;
+    }
+
+    img{
+      order: 0;
+      position: relative;
+/*       top: 20px; */
+    }
+  }
+
+  .content_image_left img{border-radius: 30px;} 
+}
+/* content image right / left */
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./app/activities/activities.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+
