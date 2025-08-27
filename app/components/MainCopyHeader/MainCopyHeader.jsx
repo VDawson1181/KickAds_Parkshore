@@ -1,0 +1,27 @@
+import React from 'react'
+import './mainCopyHeader.css'
+import Image from 'next/image'
+
+const mainCopyHeader = ({mainHeaderCopy}) => {
+  return (
+    <section className="mainCopyHeader">
+      {mainHeaderCopy.map((copy, index) => (
+          <div key={index} className="mainHeaderInner">
+                          <Image
+              src={copy.imgSrc}
+              alt="Facebook"
+              width={900}
+              height={951}
+              sizes="100vw"
+              style={{width: '100%', height: 'auto', maxHeight:'500px', margin: '-50px auto 0', objectFit: 'cover'}}
+              />
+              <div className="headerCopy">
+                  <h2>{copy.header}</h2>
+              </div>
+          </div>
+      ))}
+    </section>
+  )
+}
+
+export default mainCopyHeader
