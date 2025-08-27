@@ -25,7 +25,7 @@ export default function imageCarousel({pictures}) {
         
         });
 
-        // gsap.to(galleryImages, {autoAlpha: 1, opacity:1},0.5) // Ensure all images are visible at start;
+        // gsap.to(galleryImages, {autoAlpha: 1, opacity:1},0.5) // Here for testing.... take out later!
         
         const tl = gsap.timeline({defaults: {duration: 1, ease: "power1.inOut"}, paused: true, repeat: -1, repeatDelay: delayTiming, yoyo: false})            
             .from(animatedElements, {duration:0.25, autoAlpha: 0, opacity:0}) // Ensure all images are visible at start;
@@ -52,9 +52,9 @@ export default function imageCarousel({pictures}) {
                   src={picture.url}
                   alt={picture.name}
                   width={1200}
-                  height={800}
+                  height={850}
                   sizes="100vw"
-                  style={{width: '100%', height: 'auto', minHeight:'850px', margin: '0 auto', objectFit: 'cover'}}
+                  // style={{width: '100%', height: 'auto', minHeight:'850px', margin: '0 auto', objectFit: 'cover'}}
                   // style={{height: '800px', margin: '0 auto', objectFit: 'cover'}}
                   // style={{width:'90%', height:'auto', objectFit: 'cover'}}
                   priority={index === 0} // Only the first image is prioritized

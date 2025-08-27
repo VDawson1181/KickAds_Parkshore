@@ -17,7 +17,7 @@ const featureGallery = ({featureGalImgs}) => {
                         style={{width:'100%', height:'auto', objectFit: 'cover'}}
                         priority={0} // Only the first image is prioritized
                         />
-                    <h2>{img.name}</h2>
+                    <h2>Activities</h2>
                 </div>
             ))}
         </div>

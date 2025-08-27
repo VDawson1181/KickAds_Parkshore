@@ -1,3 +1,4 @@
+
 .clock-container{
     /* width: fit-content; */
     min-width: 320px;
@@ -11,6 +12,21 @@
     /* translate: 0 -120px; */
     position: relative;
     z-index: 10;
+
+    .triangleTopper{
+      width: 100%;
+      height: 120px;
+      aspect-ratio: 1;
+      clip-path: polygon(0 0,100% 100%,0 100%);
+      background-color: #20428d;
+      /* background: linear-gradient(90deg,red,lightblue); */
+      /* pointer-events: none; */
+
+      position: absolute;
+      top: -120px;
+      left: 0;
+      /* z-index: -1; */
+    }
 
     .clock-container-over{
       text-align: center;
@@ -225,6 +241,14 @@
     --color-dark-glare: #57afe2;
     --color-success: #76f7bf;
     --color-success-dark: #2d7a59;
+    --background: #20428d;
+    --foreground: #171717;
+    --hdrFontClr: #20428d;
+    --hdrFontSec: #57afe2;
+    --ftrBackground: #20428d;
+    --ftrFontClr: #ffffff;
+    --fntMainClr: #20428d;
+    --fntSecClr: #636466;
   }
 
   /* * {
