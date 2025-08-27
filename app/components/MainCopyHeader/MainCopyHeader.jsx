@@ -1,6 +1,6 @@
 import React from 'react'
-import './mainCopyHeader.css'
 import Image from 'next/image'
+import './mainCopyHeader.css'
 
 const mainCopyHeader = ({mainHeaderCopy}) => {
   return (
