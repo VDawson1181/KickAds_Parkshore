@@ -99,7 +99,7 @@ export default function RootLayout({ children }) {
                       rel="noopener noreferrer"
                     >
                       <Image
-                        src="./images/social_imgs/social_img_fb.jpg"
+                        src="./images/social_imgs/social_Img_fb.jpg"
                         alt="Facebook"
                         width={50}
                         height={50}
@@ -113,7 +113,7 @@ export default function RootLayout({ children }) {
                       rel="noopener noreferrer"
                     >
                       <Image
-                        src="./images/social_imgs/social_img_insta.jpg"
+                        src="./images/social_imgs/social_Img_insta.jpg"
                         alt="Instagram"
                         width={50}
                         height={50}
@@ -127,7 +127,7 @@ export default function RootLayout({ children }) {
                       rel="noopener noreferrer"
                     >
                       <Image
-                        src="./images/social_imgs/social_img_yt.jpg"
+                        src="./images/social_imgs/social_Img_yt.jpg"
                         alt="YouTube"
                         width={50}
                         height={50}
