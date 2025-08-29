@@ -1,15 +1,18 @@
-.mainCopy{
-    &.mainCopyInner{
-        h1{
-            color: #20428d;
-        }
-    } 
-}
+
 .aboutPageContainer{
     background-color: #fff;
-    padding: 20px 0;    
     min-width: 950px;
-    margin-top: -120px;
+
+    .mainCopyInner{
+        h1{
+            color: #20428d;
+            padding-bottom: 20px;
+        }
+        p{
+            padding: 0 200px;
+            font-size: 2.25rem;
+        }
+    }
 
     /*  */
     .buttonLink{

@@ -42,6 +42,7 @@
         /* color: var(--fntMainClr); */
         position: relative;
         /* margin-bottom: 20px; */
+        margin-top: -120px;
         border-bottom: 19px solid var(--fntMainClr);
 
         /* div{} */
@@ -237,4 +238,28 @@
 /*!***************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./app/activities/activities.css ***!
   \***************************************************************************************************************************************************************************************************************************************************************************/
+.activitiesContainer{
+    background-color: #fff;
+    /* padding: 20px 0;     */
+    min-width: 950px;
 
+    .activitiesMainContent{
+        /* background-color: lime; */
+        padding-top: 50px;
+
+        li{
+            list-style-type: disc;
+            margin-left: 20px;
+
+            font-size: 1.55rem;
+            line-height: 1.5em;
+            font-weight: 700;
+            color: #636466;
+        }
+        li::marker{
+            color: #57afe2;
+        }
+    }
+
+    
+}

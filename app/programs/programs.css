@@ -1,0 +1,36 @@
+.mainCopy{
+    &.mainCopyInner{
+        h1{
+            color: #20428d;
+        }
+    } 
+}
+.programPageContainer{
+    background-color: #fff;
+    /* padding: 20px 0;     */
+    min-width: 950px;
+
+    .content_image_left_container, .content_image_right_container{
+        margin-bottom: 50px;
+    }
+    .programsMainContent{
+        /* background-color: lime; */
+        padding-top: 50px;
+
+        li{
+            list-style-type: disc;
+            margin-left: 20px;
+
+            font-size: 1.55rem;
+            line-height: 1.5em;
+            font-weight: 700;
+            color: #636466;
+        }
+        li::marker{
+            color: #57afe2;
+        }
+    }
+
+
+    
+}

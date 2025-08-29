@@ -10,24 +10,23 @@ const page = () => {
 
     const mainHeaderCopy = [
         { 
-            imgSrc: "./images/carousel_imgs/Carousel_Img_2.jpg",
+            imgSrc: "/images/header_imgs/hdr_temp.jpg",
             header: "Dates & Rates"
         },
     ];
     const mainCopyContent = [
         { 
         content: `<h1>2025 Dates</h1> 
-                <h4>June 30'th - August 22nd</h4> 
-                <h4>Flex Scheduling</h4> 
-                <p>Choose 4, 6, or 8 Weeks</p>
-                <h4>Flexible and Easy Enrollment</h4> 
-                <h4>Easy Online Enrollment</h4> 
-                <p>All Major Credit Cards Accepted</p>
-                `
+                <p class='subTitle'>June 30'th - August 22nd <br/> Flex Scheduling</p> 
+                <p class='dateInfo'>Choose 4, 6, or 8 Weeks</p>
+                <p class='dateInfo'>Choose 3-5 Days</p>
+                <p class='subTitle'>Flexible and Easy Enrollment</p> 
+                <p class='dateInfo'>Easy Online Enrollment</p>
+                <p class='dateInfo'>All Major Credit Cards Accepted</p>`
         },
     ];
   return (
-    <div className="aboutPageContainer">
+    <div className="datesPageContainer">
         <MainCopyHeader mainHeaderCopy={mainHeaderCopy}></MainCopyHeader>
         <MainCopyBlock mainCopyContent={mainCopyContent}></MainCopyBlock>
         <div className="buttonLink">
@@ -37,6 +36,16 @@ const page = () => {
             <h2>Our Commitment to You</h2>
             <p>The Park Shore family remains committed to maintaining excellence in service, programs, and
                 activities to provide the best camp experience for your child(ren). If we can be of any assistance please never hesitate to call us.</p>
+        </div>
+        <div className='contentFooter'>
+            <Image
+            src="/images/footer_imgs/ftr_Img_2.png"
+            alt="Facebook"
+            width={300}
+            height={351}
+            sizes="100vw"
+            style={{width: '100%', height: 'auto', margin: '0 auto', objectFit: 'cover'}}
+            />
         </div>
     </div>
   )

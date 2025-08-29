@@ -24,17 +24,17 @@
       "static/css/app/programs/page.css",
       "static/chunks/app/programs/page.js"
     ],
-    "/activities/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/activities/page.css",
-      "static/chunks/app/activities/page.js"
-    ],
     "/dates/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/dates/page.css",
       "static/chunks/app/dates/page.js"
+    ],
+    "/activities/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/activities/page.css",
+      "static/chunks/app/activities/page.js"
     ]
   }
 }
