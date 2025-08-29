@@ -46,17 +46,17 @@ export default function Home() {
     {
     name: "Activities",
     src: "./images/feature_imgs/feat_Img_1.png",
-    pageUrl: "https://fourseasonsroofingny.com/residential-roofing/"          
+    pageUrl: "/KickAds_Parkshore/activities"          
     },
     {
     name: "Programs",
     src: "./images/feature_imgs/feat_Img_2.png",
-    pageUrl: "https://fourseasonsroofingny.com/residential-home-services/"
+    pageUrl: "/KickAds_Parkshore/programs"
     },
     {
     name: "Rates",
     src: "./images/feature_imgs/feat_Img_3.png",
-    pageUrl: "https://fourseasonsroofingny.com/residential-outdoor-living/"
+    pageUrl: "/KickAds_Parkshore/dates"
     }
   ];
   const mainCopyContent = [

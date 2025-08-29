@@ -8,16 +8,19 @@ const featureGallery = ({featureGalImgs}) => {
         <div className="featureMid">
             {featureGalImgs.map((img, index) => (
                 <div key={index} className="featureItem">
-                    <Image
-                        src={img.src}
-                        alt={img.name}
-                        width={400}
-                        height={400}
-                        sizes="100%"
-                        style={{width:'100%', height:'auto', objectFit: 'cover'}}
-                        priority={0} // Only the first image is prioritized
-                        />
-                    <h2>{img.name}</h2>
+                    <a href={img.pageUrl}>
+                        
+                        <Image
+                            src={img.src}
+                            alt={img.name}
+                            width={400}
+                            height={400}
+                            sizes="100%"
+                            style={{width:'100%', height:'auto', objectFit: 'cover'}}
+                            priority={0} // Only the first image is prioritized
+                            />
+                        <h2>{img.name}</h2>
+                    </a>
                 </div>
             ))}
         </div>
