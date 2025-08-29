@@ -10,7 +10,7 @@ const page = () => {
 
     const mainHeaderCopy = [
         { 
-            imgSrc: "./images/header_imgs/hdr_temp.jpg",
+            imgSrc: "/images/header_imgs/hdr_temp.jpg",
             header: "Dates & Rates"
         },
     ];
@@ -39,7 +39,7 @@ const page = () => {
         </div>
         <div className='contentFooter'>
             <Image
-            src="./images/footer_imgs/ftr_Img_2.png"
+            src="/images/footer_imgs/ftr_Img_2.png"
             alt="Facebook"
             width={300}
             height={351}

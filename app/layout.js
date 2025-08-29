@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
               <Link href={"/"}>
               <Image
                         className="psNavIcon"
-                        src="./images/nav_imgs/parkShore_nav_Icon.png"
+                        src="/images/nav_imgs/parkShore_nav_Icon.png"
                         alt="Parkshore Light logo"
                         width={256}
                         height={62}
@@ -52,7 +52,7 @@ export default function RootLayout({ children }) {
                     <li><Link href={"/school"}>School</Link></li>
                     <li><Link href={"/staff"}>Staff</Link></li> */}
                     <li><Link href={"/contact"}>Contact</Link></li>              
-                    <li className="enrollNow"><Link href={"/enroll"}>ENROLL NOW</Link></li>
+                    <li className="enrollNow"><Link href={"/contact"}>Enroll</Link></li> 
                 </ul>
             </nav>
         </header>
@@ -62,7 +62,7 @@ export default function RootLayout({ children }) {
               <Link href={"/"}>
               <Image
                         className="psFtrIcon"
-                        src="./images/nav_imgs/parkShore_ftr_Icon.png"
+                        src="/images/nav_imgs/parkShore_ftr_Icon.png"
                         alt="Parkshore Dark logo"
                         width={256}
                         height={62}
@@ -71,8 +71,8 @@ export default function RootLayout({ children }) {
                       />
               </Link>
               <ul className="campInfo">
-                  <li><span className="featureTxt">Visit Us:</span> 450 Deer Park Road Dix Hills, NY 11746</li>
-                  <li><span className="featureTxt">Contact Us:</span> 631.499.8580 | info@parkshoredaycamp.com</li>
+                  <li><span className="featureTxt">Visit Us:</span> <a href="https://maps.app.goo.gl/ZpYcXg52bSCFJhLW9" target="_blank" rel="noopener noreferrer">450 Deer Park Road Dix Hills, NY 11746</a></li>
+                  <li><span className="featureTxt">Contact Us:</span> <a href="tel:+6314998580">(631) 499-8580</a>| <a href="mailto:info@parkshoredaycamp.com">Info@ParkShoreDayCamp.com</a></li>
                   <li><span className="featureTxt">Learn More About:</span> Park Shore Country Day Camp </li>
                   <li><span className="featureTxt">Learn More About:</span> Park Shore Country School </li>
                   <li><span className="featureTxt">Tours:</span> Call Tricia at park shore to set up a day and time for a personalized tour! </li>
@@ -87,8 +87,8 @@ export default function RootLayout({ children }) {
                       <li><Link href={"/staff"}>Staff</Link></li>
                       <li><Link href={"/about"}>About</Link></li>             
                       <li><Link href={"/contact"}>Contact</Link></li>              
-                      <li className="enrollNow"><Link href={"/enroll"}>Enroll</Link></li>              
-                      <li className="Call"><Link href={"/enroll"}>Call</Link></li>      
+                      <li className="enrollNow"><Link href={"/contact"}>Enroll</Link></li>              
+                      <li className="Call"><Link href={"tel:+6314998580"}>Call</Link></li>      
                   </ul>
               </nav>
               <ul className="socialMedia">
@@ -99,7 +99,7 @@ export default function RootLayout({ children }) {
                       rel="noopener noreferrer"
                     >
                       <Image
-                        src="./images/social_imgs/social_Img_fb.jpg"
+                        src="/images/social_imgs/social_Img_fb.jpg"
                         alt="Facebook"
                         width={50}
                         height={50}
@@ -113,7 +113,7 @@ export default function RootLayout({ children }) {
                       rel="noopener noreferrer"
                     >
                       <Image
-                        src="./images/social_imgs/social_Img_insta.jpg"
+                        src="/images/social_imgs/social_Img_insta.jpg"
                         alt="Instagram"
                         width={50}
                         height={50}
@@ -127,7 +127,7 @@ export default function RootLayout({ children }) {
                       rel="noopener noreferrer"
                     >
                       <Image
-                        src="./images/social_imgs/social_Img_yt.jpg"
+                        src="/images/social_imgs/social_Img_yt.jpg"
                         alt="YouTube"
                         width={50}
                         height={50}
