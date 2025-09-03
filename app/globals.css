@@ -42,7 +42,7 @@ body {
 
 /* Top Navbar styles */
 header{ 
-  min-width: 950px;
+  /* min-width: 950px; */
   height: 150px;
   padding: 20px 50px 0;
 
@@ -102,7 +102,7 @@ header{
 @media only screen and (max-width: 950px) {
 header{ 
     height: 60px;
-    min-width: 320px;
+    /* min-width: 320px; */
     padding: 5px 5px 0;    
     display: grid;
     grid-template-columns: 130px auto;
@@ -180,8 +180,7 @@ header{
 }
 /* Top Navbar styles end */
 
-
-.buttonLink{
+    .buttonLink{
         width: fit-content;
         margin: 10px auto;
         background-color: var(--fntMainClr);
@@ -198,6 +197,74 @@ header{
         background-color: #459acb;
       }
     }
+
+
+@media only screen and (max-width: 550px) {
+header{ 
+    height: 250px;
+    padding: 5px 5px 0;    
+    display: grid;
+    /* flex-direction: row; */
+    grid-template-columns: 1fr;
+    grid-template-rows: 75px 85px;
+    gap: 10px; /* Space between grid items */
+    justify-content: center;
+    justify-items: center;
+    align-items:center;
+        /* padding: 10px 5px; */
+
+    .logo img{  
+      margin: 0 auto;
+    }
+  
+  nav{
+      /* position: absolute;
+      background: #ffffff;
+      padding: 20px;
+      right: 0px; */
+      /* display: none; */
+    
+      ul{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-self: center;
+        justify-content: center;
+        justify-items: center;
+        align-items:center;
+        /* padding: 10px 5px; */
+        /* gap: 10px;
+        display: flex;
+        flex-direction: row;
+        text-align: right;
+        margin: 0;
+        padding: 0; */
+
+        li{
+          justify-self: center;
+        }
+
+        li a{
+          font-size: 1em;    
+        }
+
+        li.enrollNow a{
+          font-weight: 900;
+          text-transform: uppercase;
+          font-size: 1.238em;
+          position: relative;
+          top: 0px;
+          margin-left: 0px;
+          color: #57afe2;
+        }
+      }
+    }  
+  }
+
+
+}
+
+
+
 
 
 
@@ -230,7 +297,7 @@ footer{
       margin: 50px 0 25px;
 
       font-weight: 700;
-      font-size: 1.5rem;
+      font-size: clamp(1rem, 3vw, 1.5rem);
       line-height: 1em;
 
 
@@ -240,6 +307,7 @@ footer{
           font-weight: 900;
           text-transform: uppercase;
           color: var(--hdrFontSec);
+          display: block;
         }
       }
 
@@ -305,7 +373,38 @@ footer{
       }
     }
   }
+}
 
-  
-  
+@media only screen and (max-width: 550px) {
+footer{ 
+    padding: 20px 10px 75px;
+
+    .leftFooter{
+      a img{
+        /* display: none; */
+        margin: 0 auto;
+      }
+
+      .campInfo{
+        width: 100%;
+        margin: 20px 0 25px;
+      }
+    }
+
+    .rightFooter{
+      nav{
+        display: none;
+      }
+
+      .socialMedia{
+        gap: 15px;
+        bottom: 20px;
+        right: 20px;
+      }
+    }
+
+    .logo img{  
+      margin: 0 auto;
+    }
+  }
 }

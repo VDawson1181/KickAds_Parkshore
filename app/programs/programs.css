@@ -8,7 +8,7 @@
 .programPageContainer{
     background-color: #fff;
     /* padding: 20px 0;     */
-    min-width: 950px;
+    /* min-width: 950px; */
 
     .content_image_left_container, .content_image_right_container{
         margin-bottom: 50px;
@@ -17,7 +17,7 @@
         /* background-color: lime; */
         padding-top: 50px;
 
-        li{
+        /* li{
             list-style-type: disc;
             margin-left: 20px;
 
@@ -28,7 +28,7 @@
         }
         li::marker{
             color: #57afe2;
-        }
+        } */
     }
 
 

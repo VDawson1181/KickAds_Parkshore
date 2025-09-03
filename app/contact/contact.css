@@ -1,7 +1,7 @@
 
 .contactPageContainer{
     background-color: #fff;
-    min-width: 950px;
+    /* min-width: 950px; */
 
     .mainCopyInner{
         h1{
@@ -17,10 +17,9 @@
             /* background-color: lime; */
             /* list-style-image: url('./images/contact_imgs/phone_icon.jpg'); */
             
-            font-size: 2.25rem;
+            font-size: clamp(1.15rem, 3vw, 2.25rem);
             line-height: 1.5em;
             padding-bottom: 20px;
-
             font-weight: 900;
             li{                
                 padding: 10px 0 0;
@@ -115,8 +114,117 @@
         }
     }
 
-    /*  */
+}
 
-    
 
+@media only screen and (max-width: 550px) {
+    .contactPageContainer{
+        .mainCopyInner{
+            ul{
+                width: 100%;
+                /* margin: 0 auto;
+                text-align: left;
+                color: #20428c; */
+                
+                /* background-color: lime; */
+                /* list-style-image: url('./images/contact_imgs/phone_icon.jpg'); */
+                
+                /* font-size: 2.25rem;
+                line-height: 1.5em;
+                padding-bottom: 20px;
+                font-weight: 900;
+                li{                
+                    padding: 10px 0 0;
+                } */
+                li:before{
+                    /* content:''; */
+                    /* display: inline-block; */
+                    width: 25px;
+                    height: 25px;
+                    /* background-image: url('./images/phone_icon.jpg');
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center; */
+                    margin-right: 10px;
+                    translate: 0 7px;
+                }
+
+                /* li:nth-of-type(2)::before{
+                    background-image: url('./images/location_icon.jpg');
+                }
+                li:nth-of-type(3)::before{
+                    background-image: url('./images/email_icon.jpg');
+                } */
+            }
+
+            .formContainer{
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: 265px 1fr;
+                justify-content: center;
+
+                .contactContainer{
+                    max-width: 750px;
+                    padding: 10px;
+
+                    form{
+                        text-align: left;
+                        display: grid;
+                        grid-template-columns: repeat(2,1fr);
+                        justify-items: stretch;
+                        gap: 20px;
+
+                        div{
+
+                            label{
+                                display: block;
+                                color: var(--fntMainClr);
+                                font-weight: 900;
+                                width: 100%;
+                            }
+                            input,textarea{
+                                background-color: #58b0e2;
+                                border-radius: 15px;
+                                padding: 10px 7px;
+                                width: 100%;
+                            }
+        
+                            .buttonLink{
+                                width: fit-content;
+                                margin: 10px auto;
+                                background-color: var(--fntMainClr);
+                                color: #fff;
+                                border: none;
+                                border-radius: 50px;
+                                padding: 5px 25px;
+                                font-size: 1.5rem;
+                                font-weight: 900;
+                                cursor: pointer;
+                                transition: background-color 0.3s ease;            
+        
+                                &:hover{
+                                    background-color: #459acb;
+                                }
+                            }
+                        }
+
+                        div:nth-of-type(3){
+                            grid-row: 2/3;
+                            grid-column: span 2;
+                        }
+                        div:nth-of-type(4){
+                            grid-row: 3/4;
+                            grid-column: span 2;
+                        }
+                        div:nth-of-type(5){
+                            grid-row: 4/4;
+                            grid-column: span 2;
+                        }
+
+                    }
+                }
+            }
+        }
+
+    }
 }

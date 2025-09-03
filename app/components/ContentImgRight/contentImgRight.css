@@ -24,6 +24,21 @@
       line-height: 1.5em;
       margin: 20px 0;
     }
+    ul{
+        li{
+            list-style-type: disc;
+            margin-left: 20px;
+            text-align: left;
+
+            font-size: clamp(1.25rem, 3vw, 1.55rem);
+            line-height: 1.5em;
+            font-weight: 700;
+            color: #636466;
+        }
+        li::marker{
+            color: #57afe2;
+        }
+    }
     button{
       margin-top: 10px;
       background-color: var(--fntMainClr);
@@ -61,25 +76,32 @@
 
 /*Mobile Styles*/
 @media only screen and (max-width: 950px) {
-.content_image_left{
+.content_image_right{
     display: grid;
     padding: 10px;
     grid-template-columns: 100%;
-    grid-template-rows: 50% auto;
-    gap: 10px;
+    grid-template-rows: 1fr auto;
+    gap: 50px;
     
     div{
       order: 1;
       text-align: center;
+      padding: 0;
+
+      ul{
+        margin: 0 20px;
+      }
     }
 
     img{
       order: 0;
       position: relative;
+      max-height: 300px;
+      object-position: 50% 10%;
 /*       top: 20px; */
     }
   }
 
-  .content_image_left img{border-radius: 30px;} 
+  .content_image_right img{border-radius: 30px;} 
 }
 /* content image right / left */

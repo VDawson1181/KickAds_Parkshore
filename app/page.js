@@ -61,21 +61,26 @@ export default function Home() {
   ];
   const mainCopyContent = [
     { 
-      content: '<h1>Let\'s Play, Learn <br /> & Grow Together</h1> <p>Located on a beautiful 15-acre campus in Dix Hills, Park Shore offers an unparalleled experience for children through our Camp and Preschool. From exciting summer adventures to a nurturing preschool environment, Park Shore provides the perfect balance of fun, education, and growth for children of all ages. Discover a place where earning and play come together to create unforgettable memories!</p>'
+      content: `<h1>Let\'s Play, Learn <br /> & Grow Together</h1> 
+                <p>Located on a beautiful 15-acre campus in Dix Hills, Park Shore offers an unparalleled experience for children through our Camp and Preschool. From exciting summer adventures to a nurturing preschool environment, Park Shore provides the perfect balance of fun, education, and growth for children of all ages. Discover a place where earning and play come together to create unforgettable memories!</p>`
     },
   ];
   const leftImgContent = [
     { 
       imgName: "Girl on rocks",
       imgSrc: "./images/hp_img_1.png",
-      content: '<h1>Park Shore Country Day Camp</h1><p>Park Shore Country Day Camp offers an unforgettable summer experience for children ages 2-15 on our beautiful 15-acre campus. Enjoy all the classic day camp activities with flexible scheduling options— choose 4, 6, or 8 weeks to fit your summer plans.</p><button>Learn More</button>'
+      content: `<h1>Park Shore Country Day Camp</h1>
+                <p>Park Shore Country Day Camp offers an unforgettable summer experience for children ages 2-15 on our beautiful 15-acre campus. Enjoy all the classic day camp activities with flexible scheduling options— choose 4, 6, or 8 weeks to fit your summer plans.</p>
+                <button>Learn More</button>`
     },
   ];
   const rightImgContent = [
     { 
       imgName: "Kids on floor",
       imgSrc: "./images/hp_img_2.png",
-      content: '<h1>Park Shore Country School</h1><p>Park Shore Preschool offers an exceptional program for children ages Toddler through Pre-K, combining academics, social development, and creative exploration. Our nurturing environment prepares children for future success with engaging activities, including early literacy, hands-on science, art, music, and imaginative play.</p><button>Learn More</button>'
+      content: `<h1>Park Shore Country School</h1>
+                <p>Park Shore Preschool offers an exceptional program for children ages Toddler through Pre-K, combining academics, social development, and creative exploration. Our nurturing environment prepares children for future success with engaging activities, including early literacy, hands-on science, art, music, and imaginative play.</p>
+                <button>Learn More</button>`
     },
   ];
 

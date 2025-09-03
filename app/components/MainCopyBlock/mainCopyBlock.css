@@ -5,14 +5,14 @@
   text-align: center;
 
   .mainCopyInner{
-    min-width: 950px;
+    /* min-width: 950px; */
     margin: 0 auto;
     padding: 40px;
     
     h1{
       color: #57afe2;
       font-weight: 900;
-      font-size: 6rem;
+      font-size: clamp(2.5rem, 3vw, 6rem);
       line-height: 1em;
     }
     
@@ -20,9 +20,22 @@
       margin-top: 20px;
       color: var(--fntMainClr);
       font-weight: 700;
-      font-size: 2.5rem;
+      font-size:  clamp(1.5rem, 3vw, 2.5rem);
       line-height: 1.5em;
     }
   }
 }
 /* Main Copy */
+
+
+@media only screen and (max-width: 479px) {
+  .mainCopy{
+    .mainCopyInner{
+      padding: 10px;
+
+      h1{
+        line-height: 1.25em;
+      }
+    }
+  }
+}
