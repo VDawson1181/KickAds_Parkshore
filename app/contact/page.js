@@ -18,9 +18,42 @@ const page = () => {
         content: `
             <h1>Got Questions?<br />Let's talk!</h1> 
             <ul>
-                <li><a href="tel:+6314998580">(631) 499-8580</a></li>
-                <li>450 Deer Park Rd, Dix Hills, NY 11746</li>
-                <li><a href="mailto:info@parkshoredaycamp.com">Info@ParkShoreDayCamp.com</a></li>
+                <li>
+                    <span class="contactImgs">
+                        <Image
+                        src="../images/phone_icon.jpg"
+                        alt="map"
+                        width={134}
+                        height={134}
+                        style={{min-width: '134px', height: '134px'}}
+                        />
+                    </span>
+                    <a href="tel:+6314998580">(631) 499-8580</a>
+                </li>
+                <li>
+                    <span class="contactImgs">
+                        <Image
+                        src="../images/location_icon.jpg"
+                        alt="map"
+                        width={134}
+                        height={134}
+                        style={{min-width: '134px', height: '134px'}}
+                        />
+                    </span>
+                    450 Deer Park Rd, Dix Hills, NY 11746
+                </li>
+                <li>
+                    <span class="contactImgs">
+                        <Image
+                        src="../images/email_icon.jpg"
+                        alt="map"
+                        width={134}
+                        height={134}
+                        style={{min-width: '134px', height: '134px'}}
+                        />
+                    </span>
+                    <a href="mailto:info@parkshoredaycamp.com">Info@ParkShoreDayCamp.com</a>
+                </li>
             </ul>
             <div class="formContainer">
                 <div class="imageContainer">            
