@@ -10,8 +10,8 @@ const mainCopyHeader = ({mainHeaderCopy}) => {
                           <Image
               src={copy.imgSrc}
               alt="Facebook"
-              width={900}
-              height={950}
+              width={1024}
+              height={500}
               sizes="100vw"
               style={{width: '100%', height: 'auto', maxHeight:'500px', margin: '-50px auto 0', objectFit: 'cover'}}
               />

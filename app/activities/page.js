@@ -11,14 +11,14 @@ import './activities.css';
 const page = () => {
     const mainHeaderCopy = [
         { 
-            imgSrc: "/images/header_imgs/hdr_temp.jpg",
+            imgSrc: "./images/header_imgs/hdr_activities.png",
             header: "Activities"
         },
     ];
     const leftImgContentTop = [
             { 
             imgName: "Girl on rocks",
-            imgSrc: "/images/content_imgs/activities_img_1.png",
+            imgSrc: "./images/content_imgs/activities_img_1.png",
             content: `
             <h1>Aquatics</h1>
             <p>The Park Shore Aquatics Program is designed with
@@ -45,7 +45,7 @@ const page = () => {
     const rightImgContentMid = [
             { 
             imgName: "Kids on floor",
-            imgSrc: "/images/content_imgs/activities_img_2.png",
+            imgSrc: "./images/content_imgs/activities_img_2.png",
             content: `
             <h1>Athletics</h1>
             <p>The Park Shore Athletics Program is an essential part
@@ -68,7 +68,7 @@ const page = () => {
         const leftImgContentMid = [
                 { 
                 imgName: "Kids on floor",
-                imgSrc: "/images/content_imgs/activities_img_3.png",
+                imgSrc: "./images/content_imgs/activities_img_3.png",
                 content: `
                 <h1>Extreme Adventure</h1>
                 <p>Ready for action-packed adventure EVERY DAY?
@@ -98,7 +98,7 @@ const page = () => {
         const rightImgContentBot = [
                 { 
                 imgName: "Kids on floor",
-                imgSrc: "/images/content_imgs/activities_img_4.png",
+                imgSrc: "./images/content_imgs/activities_img_4.png",
                 content: `
                 <h1>Specialty Areas</h1>
                 <p>Each day, our campers dive into a dynamic mix of
@@ -117,7 +117,7 @@ const page = () => {
         const leftImgContentBot = [
                 { 
                 imgName: "Kids on floor",
-                imgSrc: "/images/content_imgs/activities_img_5.png",
+                imgSrc: "./images/content_imgs/activities_img_5.png",
                 content: `
                 <h1>Specialty Events</h1>
                 <p>Park Shore always has a long list of exciting and

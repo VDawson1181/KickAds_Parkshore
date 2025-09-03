@@ -15,7 +15,7 @@
             color: #20428c;
             
             /* background-color: lime; */
-            /* list-style-image: url('/images/contact_imgs/phone_icon.jpg'); */
+            /* list-style-image: url('./images/contact_imgs/phone_icon.jpg'); */
             
             font-size: 2.25rem;
             line-height: 1.5em;
@@ -30,7 +30,7 @@
                 display: inline-block;
                 width: 50px;
                 height: 50px;
-                background-image: url('/images/phone_icon.jpg');
+                background-image: url('./images/phone_icon.jpg');
                 background-size: contain;
                 background-repeat: no-repeat;
                 background-position: center;
@@ -39,10 +39,10 @@
             }
 
             li:nth-of-type(2)::before{
-                background-image: url('/images/location_icon.jpg');
+                background-image: url('./images/location_icon.jpg');
             }
             li:nth-of-type(3)::before{
-                background-image: url('/images/email_icon.jpg');
+                background-image: url('./images/email_icon.jpg');
             }
         }
 
