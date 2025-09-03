@@ -54,7 +54,7 @@ export default function imageCarousel({pictures}) {
                   width={1200}
                   height={850}
                   sizes="100vw"
-                  // style={{width: '100%', height: 'auto', minHeight:'850px', margin: '0 auto', objectFit: 'cover'}}
+                  style={{width: '100%', height: 'auto', minHeight:'850px', margin: '0 auto', objectFit: 'cover'}}
                   // style={{height: '800px', margin: '0 auto', objectFit: 'cover'}}
                   // style={{width:'90%', height:'auto', objectFit: 'cover'}}
                   priority={index === 0} // Only the first image is prioritized
