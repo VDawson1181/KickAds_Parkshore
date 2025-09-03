@@ -30,7 +30,7 @@ const page = () => {
         <MainCopyHeader mainHeaderCopy={mainHeaderCopy}></MainCopyHeader>
         <MainCopyBlock mainCopyContent={mainCopyContent}></MainCopyBlock>
         <div className="buttonLink">
-            <a href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app" target="_blank" rel="noopener noreferrer">Enroll Now</a>
+            <a href="/contact" target="_blank" rel="noopener noreferrer">Enroll Now</a>
         </div>        
         <div className="commitmentStatement">
             <h2>Our Commitment to You</h2>
@@ -39,7 +39,7 @@ const page = () => {
         </div>
         <div className='contentFooter'>
             <Image
-            src="./images/footer_imgs/ftr_Img_2.png"
+            src="/images/footer_imgs/ftr_Img_2.png"
             alt="Facebook"
             width={300}
             height={351}

@@ -25,7 +25,7 @@ const page = () => {
             <div class="formContainer">
                 <div class="imageContainer">            
                     <Image
-                    src="./images/contact_Gal_temp.png"
+                    src="/images/contact_Gal_temp.png"
                     alt="map"
                     width={300}
                     height={351}
@@ -67,7 +67,7 @@ const page = () => {
         <a href="https://maps.app.goo.gl/ZpYcXg52bSCFJhLW9" target="_blank" rel="noopener noreferrer">        
             <div className='contentFooter'>
                 <Image
-                src="./images/footer_imgs/ftr_Img_contact.png"
+                src="/images/footer_imgs/ftr_Img_contact.png"
                 alt="map"
                 width={300}
                 height={351}

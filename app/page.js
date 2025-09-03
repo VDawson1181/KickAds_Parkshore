@@ -12,51 +12,51 @@ export default function Home() {
   const targetDateTime = "September 5 2025 00:00:00";
   const pictures = [
           {
-          name: "Girl Playing",
+          name: "Adventure Starts Here",
           url: "./images/carousel_imgs/Carousel_Img_1.png",
-          pageUrl: "https://fourseasonsroofingny.com/residential-roofing/"          
+          pageUrl: "/about"          
           },
           {
-          name: "Boys On Bars",
+          name: "Play Hard, Shine Bright",
           url: "./images/carousel_imgs/Carousel_Img_2.png",
-          pageUrl: "https://fourseasonsroofingny.com/residential-home-services/"
+          pageUrl: "/programs"
           },
           {
-          name: "Boy and Project",
+          name: "Growing Minds",
           url: "./images/carousel_imgs/Carousel_Img_3.png",
-          pageUrl: "https://fourseasonsroofingny.com/residential-outdoor-living/"
+          pageUrl: "/activities"
           },
           {
-          name: "Teens Smiling",
+          name: "Play, Learn, Belong",
           url: "./images/carousel_imgs/Carousel_Img_4.png",
-          pageUrl: "https://fourseasonsroofingny.com/masonry-decking/"
+          pageUrl: "/dates"
           },
           {
-          name: "Boys on Slide",
+          name: "Building Confidence Through Play",
           url: "./images/carousel_imgs/Carousel_Img_5.png",
-          pageUrl: "https://fourseasonsroofingny.com/residential-roofing/#metal-copper"
+          pageUrl: "/activities"
           },
           {  
-          name: "Boy on Swing",
+          name: "Learning is just the beginning",
           url: "./images/carousel_imgs/Carousel_Img_6.png",
-          pageUrl: "https://fourseasonsroofingny.com/residential-roofing/"
+          pageUrl: "/contact"
           }
       ];
   const featureGalImgs = [
     {
     name: "Activities",
     src: "./images/feature_imgs/feat_Img_1.png",
-    pageUrl: "/KickAds_Parkshore/activities"          
+    pageUrl: "/activities"          
     },
     {
     name: "Programs",
     src: "./images/feature_imgs/feat_Img_2.png",
-    pageUrl: "/KickAds_Parkshore/programs"
+    pageUrl: "/programs"
     },
     {
     name: "Rates",
     src: "./images/feature_imgs/feat_Img_3.png",
-    pageUrl: "/KickAds_Parkshore/dates"
+    pageUrl: "/dates"
     }
   ];
   const mainCopyContent = [

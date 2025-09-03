@@ -361,7 +361,7 @@ header {
       flex-direction: row;
       justify-content: flex-end;
       list-style: none;
-      gap: 15px;
+      gap: 25px;
       margin: 0;
       padding: 0;
       li a {
@@ -471,6 +471,7 @@ header {
         justify-content: center;
         justify-items: center;
         align-items: center;
+        gap: 10px;
         li {
           justify-self: center;
         }
