@@ -79,11 +79,9 @@
 
 .contactPageContainer{
     background-color: #fff;
-    /* min-width: 950px; */
 
     .mainCopyInner{
         h1{
-            /* color: #20428d; */
             padding-bottom: 20px;
         }
         ul{
@@ -92,8 +90,6 @@
             text-align: left;
             color: #20428c;
             
-            /* background-color: lime; */
-            /* list-style-image: url('./images/contact_imgs/phone_icon.jpg'); */
             
             font-size: clamp(1.15rem, 3vw, 2.25rem);
             line-height: 1.5em;
@@ -107,7 +103,7 @@
                 display: inline-block;
                 width: 50px;
                 height: 50px;
-                background-image: url('./images/phone_icon.jpg');
+                background-image: url('/images/phone_icon.jpg');
                 background-size: contain;
                 background-repeat: no-repeat;
                 background-position: center;
@@ -116,10 +112,10 @@
             }
 
             li:nth-of-type(2)::before{
-                background-image: url('./images/location_icon.jpg');
+                background-image: url('/images/location_icon.jpg');
             }
             li:nth-of-type(3)::before{
-                background-image: url('./images/email_icon.jpg');
+                background-image: url('/images/email_icon.jpg');
             }
         }
 
@@ -200,39 +196,12 @@
         .mainCopyInner{
             ul{
                 width: 100%;
-                /* margin: 0 auto;
-                text-align: left;
-                color: #20428c; */
-                
-                /* background-color: lime; */
-                /* list-style-image: url('./images/contact_imgs/phone_icon.jpg'); */
-                
-                /* font-size: 2.25rem;
-                line-height: 1.5em;
-                padding-bottom: 20px;
-                font-weight: 900;
-                li{                
-                    padding: 10px 0 0;
-                } */
                 li:before{
-                    /* content:''; */
-                    /* display: inline-block; */
                     width: 25px;
                     height: 25px;
-                    /* background-image: url('./images/phone_icon.jpg');
-                    background-size: contain;
-                    background-repeat: no-repeat;
-                    background-position: center; */
                     margin-right: 10px;
                     translate: 0 7px;
                 }
-
-                /* li:nth-of-type(2)::before{
-                    background-image: url('./images/location_icon.jpg');
-                }
-                li:nth-of-type(3)::before{
-                    background-image: url('./images/email_icon.jpg');
-                } */
             }
 
             .formContainer{

@@ -26,7 +26,7 @@ const page = () => {
             <a href="/contact" target="_blank" rel="noopener noreferrer">Enroll Now</a>
         </div>        
         <Image
-        src="/images/about_images/accred_img.png"
+        src="./images/about_images/accred_img.png"
         alt="Facebook"
         width={300}
         height={351}
@@ -35,7 +35,7 @@ const page = () => {
         />
         <div className='contentFooter'>
             <Image
-            src="/images/footer_imgs/ftr_Img_1.png"
+            src="./images/footer_imgs/ftr_Img_1.png"
             alt="Facebook"
             width={300}
             height={351}
