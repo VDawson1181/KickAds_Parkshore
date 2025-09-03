@@ -519,7 +519,6 @@ footer {
           font-weight: 900;
           text-transform: uppercase;
           color: var(--hdrFontSec);
-          display: block;
         }
       }
       li:last-child {
@@ -575,6 +574,11 @@ footer {
       .campInfo {
         width: 100%;
         margin: 20px 0 25px;
+        li {
+          span.featureTxt {
+            display: block;
+          }
+        }
       }
     }
     .rightFooter {
