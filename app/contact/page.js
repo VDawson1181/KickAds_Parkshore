@@ -21,8 +21,8 @@ const page = () => {
                 <li>
                     <span class="contactImgs">
                         <Image
-                        src="../images/phone_icon.jpg"
-                        alt="map"
+                        src="./images/phone_icon.jpg"
+                        alt="Phone"
                         width={134}
                         height={134}
                         style={{min-width: '134px', height: '134px'}}
@@ -33,8 +33,8 @@ const page = () => {
                 <li>
                     <span class="contactImgs">
                         <Image
-                        src="../images/location_icon.jpg"
-                        alt="map"
+                        src="./images/location_icon.jpg"
+                        alt="location"
                         width={134}
                         height={134}
                         style={{min-width: '134px', height: '134px'}}
@@ -45,8 +45,8 @@ const page = () => {
                 <li>
                     <span class="contactImgs">
                         <Image
-                        src="../images/email_icon.jpg"
-                        alt="map"
+                        src="./images/email_icon.jpg"
+                        alt="email"
                         width={134}
                         height={134}
                         style={{min-width: '134px', height: '134px'}}
