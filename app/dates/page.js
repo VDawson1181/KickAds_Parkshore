@@ -17,7 +17,7 @@ const page = () => {
     const mainCopyContent = [
         { 
         content: `<h1>2025 Dates</h1> 
-                <p class='subTitle'>June 30'th - August 22nd <br/> Flex Scheduling</p> 
+                <p class='subTitle'>June 30th - August 22nd <br/> Flex Scheduling</p> 
                 <p class='dateInfo'>Choose 4, 6, or 8 Weeks</p>
                 <p class='dateInfo'>Choose 3-5 Days</p>
                 <p class='subTitle'>Flexible and Easy Enrollment</p> 

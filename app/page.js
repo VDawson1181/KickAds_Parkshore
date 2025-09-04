@@ -14,49 +14,49 @@ export default function Home() {
           {
           name: "Adventure Starts Here",
           url: "./images/carousel_imgs/Carousel_Img_1.png",
-          pageUrl: "/about"          
+          pageUrl: "/KickAds_Parkshore/about"          
           },
           {
           name: "Play Hard, Shine Bright",
           url: "./images/carousel_imgs/Carousel_Img_2.png",
-          pageUrl: "/programs"
+          pageUrl: "/KickAds_Parkshore/programs"
           },
           {
           name: "Growing Minds",
           url: "./images/carousel_imgs/Carousel_Img_3.png",
-          pageUrl: "/activities"
+          pageUrl: "/KickAds_Parkshore/activities"
           },
           {
           name: "Play, Learn, Belong",
           url: "./images/carousel_imgs/Carousel_Img_4.png",
-          pageUrl: "/dates"
+          pageUrl: "/KickAds_Parkshore/dates"
           },
           {
           name: "Building Confidence Through Play",
           url: "./images/carousel_imgs/Carousel_Img_5.png",
-          pageUrl: "/activities"
+          pageUrl: "/KickAds_Parkshore/activities"
           },
           {  
           name: "Learning is just the beginning",
           url: "./images/carousel_imgs/Carousel_Img_6.png",
-          pageUrl: "/contact"
+          pageUrl: "/KickAds_Parkshore/contact"
           }
       ];
   const featureGalImgs = [
     {
     name: "Activities",
     src: "./images/feature_imgs/feat_Img_1.png",
-    pageUrl: "/activities"          
+    pageUrl: "/KickAds_Parkshore/activities"          
     },
     {
     name: "Programs",
     src: "./images/feature_imgs/feat_Img_2.png",
-    pageUrl: "/programs"
+    pageUrl: "/KickAds_Parkshore/programs"
     },
     {
     name: "Rates",
     src: "./images/feature_imgs/feat_Img_3.png",
-    pageUrl: "/dates"
+    pageUrl: "/KickAds_Parkshore/dates"
     }
   ];
   const mainCopyContent = [

@@ -11,9 +11,9 @@ const mainCopyHeader = ({mainHeaderCopy}) => {
               src={copy.imgSrc}
               alt="Facebook"
               width={1024}
-              height={500}
+              height={675}
               sizes="100vw"
-              style={{width: '100%', height: 'auto', maxHeight:'500px', margin: '-50px auto 0', objectFit: 'cover'}}
+              style={{width: '100%', height: 'auto', maxHeight:'675px', margin: '0px auto 0', objectFit: 'cover'}}
               />
               <div className="headerCopy">
                   <h2>{copy.header}</h2>

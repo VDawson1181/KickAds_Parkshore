@@ -179,8 +179,9 @@
             translate: 0 -15px;
 
             h2{ 
-                font-size: 2rem;
-                line-height: 2em;
+                font-size: 2.5rem;
+                line-height: 1.5em;
+                padding-left: 3px;
                 color: var(--ftrFontClr);
             }
             h3{
@@ -420,12 +421,12 @@
       text-transform: uppercase;
 
       h2{ 
-          font-size: 3.75rem;
+          font-size: 2.75rem;
           line-height: 1.25em;
           color: var(--ftrFontClr);
       }
       h3{
-          font-size: 6rem;
+          font-size: 3rem;
           line-height: 1em;
           color: var(--hdrFontSec);
       }
@@ -553,13 +554,14 @@
 /* Carousel styles start */
 #mainContainer{
     /* min-width: 1024px; */
-  /* translate: 0 -120px; */
-  margin-top: -120px;
+  translate: 0 -120px;
+  /* margin-top: -120px; */
 
   #heroSection{
-    height: 750px;
+    height: 850px;
     overflow: hidden;
     background-color: #57afe2;
+    border-top: 4px solid #57afe2;
     /* background-color: lime; */
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -581,9 +583,16 @@
 /* Carousel styles end */
 
 
+@media only screen and (max-width: 950px) {
+  #mainContainer{
+    #heroSection{
+      height: 700px;
+    }
+  }
+}
 @media only screen and (max-width: 550px) {
   #mainContainer{
-    margin-top: -120px;
+    /* margin-top: -120px; */
 
     #heroSection{
       height: 300px;
@@ -607,7 +616,7 @@
     h1{
       color: #57afe2;
       font-weight: 900;
-      font-size: clamp(2.5rem, 3vw, 6rem);
+      font-size: 6rem;
       line-height: 1em;
     }
     
@@ -629,8 +638,10 @@
       padding: 10px;
 
       h1{
+        font-size: 2.5rem;
         line-height: 1.25em;
       }
+      
     }
   }
 }
