@@ -169,7 +169,7 @@ header{
       flex-direction: column;
       justify-content: space-between;
       cursor: pointer;
-      display: none;
+      /* display: none; */
     }
 
     .hamburger-menu span {
@@ -219,12 +219,14 @@ header{
 
 @media only screen and (max-width: 550px) {
 header{ 
-    height: 250px;
+    height: 425px;
     padding: 5px 5px 0;    
     display: grid;
     /* flex-direction: row; */
+    /* grid-template-columns: 1fr;
+    grid-template-rows: 75px 85px; */
     grid-template-columns: 1fr;
-    grid-template-rows: 75px 85px;
+    grid-template-rows: 85px 300px;
     gap: 10px; /* Space between grid items */
     justify-content: center;
     justify-items: center;
@@ -244,7 +246,7 @@ header{
     
       ul{
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        /* grid-template-columns: repeat(4, 1fr); */
         align-self: center;
         justify-content: center;
         justify-items: center;

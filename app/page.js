@@ -9,7 +9,7 @@ import ContentImgRight from "./components/ContentImgRight/contentImgRight";
 
 export default function Home() {
 
-  const targetDateTime = "September 5 2025 00:00:00";
+  const targetDateTime = "September 15 2025 00:00:00";
   const pictures = [
           {
           name: "Adventure Starts Here",
