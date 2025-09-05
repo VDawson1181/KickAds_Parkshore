@@ -273,7 +273,7 @@
 }
 
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 1200px) {
 .clock-container{
     /* width: fit-content; */
     min-width: 320px;

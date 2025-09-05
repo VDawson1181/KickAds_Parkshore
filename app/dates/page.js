@@ -30,8 +30,8 @@ const page = () => {
         <MainCopyHeader mainHeaderCopy={mainHeaderCopy}></MainCopyHeader>
         <MainCopyBlock mainCopyContent={mainCopyContent}></MainCopyBlock>
         <div className="buttonLink">
-            <a href="/contact" target="_blank" rel="noopener noreferrer">Enroll Now</a>
-        </div>        
+            <a href="/KickAds_Parkshore/contact" rel="noopener noreferrer">Enroll Now</a>
+        </div>    
         <div className="commitmentStatement">
             <h2>Our Commitment to You</h2>
             <p>The Park Shore family remains committed to maintaining excellence in service, programs, and

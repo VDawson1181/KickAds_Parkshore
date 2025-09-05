@@ -23,7 +23,7 @@ const page = () => {
         <MainCopyHeader mainHeaderCopy={mainHeaderCopy}></MainCopyHeader>
         <MainCopyBlock mainCopyContent={mainCopyContent}></MainCopyBlock>
         <div className="buttonLink">
-            <a href="/contact" target="_blank" rel="noopener noreferrer">Enroll Now</a>
+            <a href="/KickAds_Parkshore/contact" rel="noopener noreferrer">Enroll Now</a>
         </div>        
         <Image
         src="./images/about_images/accred_img.png"

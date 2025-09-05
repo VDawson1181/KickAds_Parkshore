@@ -369,8 +369,11 @@ header {
         font-weight: bold;
         text-transform: uppercase;
         font-size: 1.238em;
+        &:hover {
+          color: #459acb;
+        }
       }
-      li.enrollNow a {
+      li:last-child a, li:nth-last-of-type(2) a {
         font-weight: 900;
         text-transform: uppercase;
         font-size: 1.758em;
@@ -378,6 +381,13 @@ header {
         top: 5px;
         margin-left: 20px;
         color: #57afe2;
+        &:hover {
+          color: #1f418d;
+        }
+      }
+      .active {
+        color: #459acb;
+        font-weight: 900;
       }
     }
   }
@@ -513,7 +523,7 @@ footer {
       gap: 10px;
       margin: 50px 0 25px;
       font-weight: 700;
-      font-size: clamp(1rem, 3vw, 1.5rem);
+      font-size: clamp(0.5rem, 3vw, 1.25rem);
       line-height: 1em;
       li {
         span.featureTxt {
@@ -541,7 +551,24 @@ footer {
         text-transform: uppercase;
         font-weight: 900;
         li a {
-          font-size: 2.038rem;
+          font-size: 1.238em;
+          &:hover {
+            color: #459acb;
+          }
+        }
+        li:last-child a, li:nth-last-of-type(2) a {
+          font-weight: 900;
+          font-size: 1.758em;
+          position: relative;
+          top: -7px;
+          color: #57afe2;
+          &:hover {
+            color: #ffffff;
+          }
+        }
+        .active {
+          color: #459acb;
+          font-weight: 900;
         }
         li.enrollNow a, li.Call a {
           font-weight: 900;
@@ -565,7 +592,7 @@ footer {
     }
   }
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 1200px) {
   footer {
     padding: 20px 10px 75px;
     .leftFooter {

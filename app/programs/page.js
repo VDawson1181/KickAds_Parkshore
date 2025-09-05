@@ -42,7 +42,11 @@ const page = () => {
                     <li>Daily ice cream at dismissal</li>
                     <li>Choose two to five days</li>
                     <li>Please inquire about transportation</li>
-                </ul>`
+                </ul>
+                <button class="buttonLink">
+                    <a href="/KickAds_Parkshore/contact" rel="noopener noreferrer">Enroll Now</a>
+                </button>    
+                `
             },
         ];
     const rightImgContentMid = [
@@ -50,35 +54,39 @@ const page = () => {
             imgName: "Kids on floor",
             imgSrc: "./images/content_imgs/programs_img_2.png",
             content: `
-            <h1>Preschoolers (Ages 3-4)<br>Day Campers</h1>
-            <p>Our Preschool campers have the opportunity to
-                experience all that Park Shore has to offer in a smaller,
-                more controlled environment. There are specifically
-                designed areas that only Preschool campers use,
-                such as our Preschool Sports Facility. This area is
-                equipped with a Junior Dream Field, mini soccer field,
-                small basketball hoops with a mini backstop to
-                encourage our campers and provide them with the
-                success they need as young people. Preschool tennis
-                and Preschool GaGa are more activities exclusively for
-                our Preschool campers. Our Preschool Program also
-                includes our Early Enrichment Experience. This program
-                allows your child the time to practice skills such as
-                name writing, counting, sorting, and cutting. Taught
-                by one of our own highly qualified teachers, the
-                reinforcement of these skills during the summer
-                helps to prepare your child for the following school
-                year. Our campers arrive at Park Shore approximately
-                9 a.m. and leave camp around 4 p.m. They will be in a
-                camp group based on their age, grade, and gender and
-                will be led by an adult group leader who is assisted by
-                college-age counselors. Their activity schedule is
-                specially created for their age and will include aquatics,
-                athletics, specialty activities, Bungee Trampoline,
-                cultural arts activities, lunch, and a long list of very
-                exciting special events each week. Our preschool
-                (3 - 5-year-old) campers can enroll for either 3 or 5 days
-                each week.</p>`
+                <h1>Preschoolers (Ages 3-4)<br>Day Campers</h1>
+                <p>Our Preschool campers have the opportunity to
+                    experience all that Park Shore has to offer in a smaller,
+                    more controlled environment. There are specifically
+                    designed areas that only Preschool campers use,
+                    such as our Preschool Sports Facility. This area is
+                    equipped with a Junior Dream Field, mini soccer field,
+                    small basketball hoops with a mini backstop to
+                    encourage our campers and provide them with the
+                    success they need as young people. Preschool tennis
+                    and Preschool GaGa are more activities exclusively for
+                    our Preschool campers. Our Preschool Program also
+                    includes our Early Enrichment Experience. This program
+                    allows your child the time to practice skills such as
+                    name writing, counting, sorting, and cutting. Taught
+                    by one of our own highly qualified teachers, the
+                    reinforcement of these skills during the summer
+                    helps to prepare your child for the following school
+                    year. Our campers arrive at Park Shore approximately
+                    9 a.m. and leave camp around 4 p.m. They will be in a
+                    camp group based on their age, grade, and gender and
+                    will be led by an adult group leader who is assisted by
+                    college-age counselors. Their activity schedule is
+                    specially created for their age and will include aquatics,
+                    athletics, specialty activities, Bungee Trampoline,
+                    cultural arts activities, lunch, and a long list of very
+                    exciting special events each week. Our preschool
+                    (3 - 5-year-old) campers can enroll for either 3 or 5 days
+                    each week.</p>
+                    <button class="buttonLink">
+                        <a href="/KickAds_Parkshore/contact" rel="noopener noreferrer">Enroll Now</a>
+                    </button>    
+                `
             },
         ];
         const leftImgContentBot = [
@@ -109,7 +117,11 @@ const page = () => {
                 activity schedule is specially created for their
                 age and will include: aquatics, athletics, specialty
                 activities, cultural arts activities, lunch, and a long 
-                ist of very exciting special events each week.</p>`
+                ist of very exciting special events each week.</p>
+                <button class="buttonLink">
+                    <a href="/KickAds_Parkshore/contact" rel="noopener noreferrer">Enroll Now</a>
+                </button>                  
+                `
                 },
             ];
     

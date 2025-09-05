@@ -2,11 +2,11 @@
 /* Carousel styles start */
 #mainContainer{
     /* min-width: 1024px; */
-  translate: 0 -120px;
+  /* translate: 0 -120px; */
   /* margin-top: -120px; */
 
   #heroSection{
-    height: 850px;
+    height: 750px;
     overflow: hidden;
     background-color: #57afe2;
     border-top: 4px solid #57afe2;

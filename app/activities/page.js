@@ -39,6 +39,11 @@ const page = () => {
             <p>Our campers swim twice each day, which increases
             their opportunity to learn new skills and become
             stronger swimmers.</p>
+
+
+            <button class="buttonLink">
+                <a href="/KickAds_Parkshore/contact" rel="noopener noreferrer">Enroll Now</a>
+            </button>                   
 `
             },
         ];
@@ -62,6 +67,10 @@ const page = () => {
             exciting, supportive environment where every camper
             is encouraged to grow, have fun, and reach their full
             athletic potential.</p>
+
+            <button class="buttonLink">
+                <a href="/KickAds_Parkshore/contact" rel="noopener noreferrer">Enroll Now</a>
+            </button>       
             `
             },
         ];
@@ -92,6 +101,10 @@ const page = () => {
                     <li>Pedal Cars</li>
                     <li>Sky Tykes</li>
                 </ul>
+
+                <button class="buttonLink">
+                    <a href="/KickAds_Parkshore/contact" rel="noopener noreferrer">Enroll Now</a>
+                </button>                       
                 `
                 },
             ];
@@ -111,7 +124,11 @@ const page = () => {
                 cooking, tie-dye, woodworking, maker space/LEGO,
                 science, and preschool enrichment—ensuring endless
                 opportunities for fun, discovery, and growth at Park
-                Shore, a leader in the day camp industry.</p>`
+                Shore, a leader in the day camp industry.</p>
+                <button class="buttonLink">
+                    <a href="/KickAds_Parkshore/contact" rel="noopener noreferrer">Enroll Now</a>
+                </button>                       
+                `
                 },
             ];
         const leftImgContentBot = [
@@ -131,7 +148,11 @@ const page = () => {
                 exciting events that take place. Our campers and
                 staff maintain very high levels of enthusiasm and
                 always look forward to another rewarding and
-                fun-filled day at Park Shore.</p>`
+                fun-filled day at Park Shore.</p>
+                <button class="buttonLink">
+                    <a href="/KickAds_Parkshore/contact" rel="noopener noreferrer">Enroll Now</a>
+                </button>                       
+                `
                 },
             ];
     
