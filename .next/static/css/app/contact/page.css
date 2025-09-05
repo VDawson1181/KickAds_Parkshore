@@ -86,6 +86,85 @@
     }
 }
 
+/*!************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./app/components/ContactCarousel/contactCarousel.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************/
+
+/* Carousel styles start */
+.formContainer{
+    /* min-width: 1024px; */
+  /* translate: 0 -120px; */
+  /* margin-top: -120px; */
+
+  .imageContainer{
+    width: 700px;
+    height: 530px;
+    position: relative;
+    /* overflow: hidden; */
+    
+    /* background-color: lime; */
+    display: grid;
+    justify-self: end;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    /* clip-path: polygon(0 0, 100% 0, 100% 95%, 0 85%);      */
+
+    div.contactShadow{
+      background-color: transparent;
+      /* background-color: blueviolet; */
+      border-radius: 10px;
+      position: absolute;
+      transform: rotate(-5deg);
+      box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.5);
+      border: 24px solid #fff;
+      z-index: 17;
+
+      width: 95%;
+      height: 90%;
+      top: 26px;
+      left: 18px;
+      /* width: 476px;
+      height: 339px;
+      top: 81px;
+      left: 12px; */
+    }
+  
+    div{
+      /* transform: rotate(5deg); */
+      translate: 0 -27px;
+      grid-row: 1/2;
+      grid-column: 1/3;
+
+      img{
+        margin: 0 auto;
+        align-self: start;
+        /* mask: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 5%, rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 0) 100%); */
+        /* This creates a fade from transparent to opaque and back to transparent on the horizontal axis. */
+      }
+    }
+  }
+}
+/* Carousel styles end */
+
+
+@media only screen and (max-width: 950px) {
+  .formContainer{
+    .imageContainer{
+      height: 700px;
+    }
+  }
+}
+@media only screen and (max-width: 550px) {
+  .formContainer{
+    /* margin-top: -120px; */
+
+    .imageContainer{
+      height: 526px;
+      transform: scale(0.5);
+      transform-origin: center top;
+    }
+  }
+}
 /*!*********************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./app/contact/contact.css ***!
   \*********************************************************************************************************************************************************************************************************************************************************************/
@@ -135,9 +214,11 @@
                 background-image: url('./images/email_icon.jpg');
             } */
         }
+        
+    }
 
 
-        .formContainer{
+    .formContainer{
             display: grid;
             grid-template-columns: repeat(2,1fr);
             justify-content: center;
@@ -203,7 +284,6 @@
                 }
             }
         }
-    }
 
 }
 
@@ -226,76 +306,84 @@
                     margin-right: 10px;
                     translate: 0 7px;
                 } */
-            }
+            }            
+        }
 
-            .formContainer{
-                display: grid;
-                grid-template-columns: 1fr;
-                grid-template-rows: 265px 1fr;
-                justify-content: center;
 
-                .contactContainer{
-                    max-width: 750px;
-                    padding: 10px;
 
-                    form{
-                        text-align: left;
-                        display: grid;
-                        grid-template-columns: repeat(2,1fr);
-                        justify-items: stretch;
-                        gap: 20px;
 
-                        div{
+        .formContainer{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 265px 1fr;
+            justify-content: center;
+    
+            .contactContainer{
+                /* max-width: 750px; */
+                /* padding: 10px; */
 
-                            label{
-                                display: block;
-                                color: var(--fntMainClr);
-                                font-weight: 900;
-                                width: 100%;
+                max-width: 390px;
+                padding: 10px;
+                margin: 0 auto;
+
+    
+                form{
+                    text-align: left;
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    justify-items: stretch;
+                    gap: 20px;
+    
+                    div{
+    
+                        label{
+                            display: block;
+                            color: var(--fntMainClr);
+                            font-weight: 900;
+                            width: 100%;
+                        }
+                        input,textarea{
+                            background-color: #58b0e2;
+                            border-radius: 15px;
+                            padding: 10px 7px;
+                            width: 100%;
+                        }
+    
+                        .buttonLink{
+                            width: fit-content;
+                            margin: 10px auto;
+                            background-color: var(--fntMainClr);
+                            color: #fff;
+                            border: none;
+                            border-radius: 50px;
+                            padding: 5px 25px;
+                            font-size: 1.5rem;
+                            font-weight: 900;
+                            cursor: pointer;
+                            transition: background-color 0.3s ease;            
+    
+                            &:hover{
+                                background-color: #459acb;
                             }
-                            input,textarea{
-                                background-color: #58b0e2;
-                                border-radius: 15px;
-                                padding: 10px 7px;
-                                width: 100%;
-                            }
-        
-                            .buttonLink{
-                                width: fit-content;
-                                margin: 10px auto;
-                                background-color: var(--fntMainClr);
-                                color: #fff;
-                                border: none;
-                                border-radius: 50px;
-                                padding: 5px 25px;
-                                font-size: 1.5rem;
-                                font-weight: 900;
-                                cursor: pointer;
-                                transition: background-color 0.3s ease;            
-        
-                                &:hover{
-                                    background-color: #459acb;
-                                }
-                            }
                         }
-
-                        div:nth-of-type(3){
-                            grid-row: 2/3;
-                            grid-column: span 2;
-                        }
-                        div:nth-of-type(4){
-                            grid-row: 3/4;
-                            grid-column: span 2;
-                        }
-                        div:nth-of-type(5){
-                            grid-row: 4/4;
-                            grid-column: span 2;
-                        }
-
                     }
+    
+                    div:nth-of-type(3){
+                        grid-row: 2/3;
+                        grid-column: span 2;
+                    }
+                    div:nth-of-type(4){
+                        grid-row: 3/4;
+                        grid-column: span 2;
+                    }
+                    div:nth-of-type(5){
+                        grid-row: 4/4;
+                        grid-column: span 2;
+                    }
+    
                 }
             }
         }
-
     }
+
 }

@@ -44,9 +44,11 @@
                 background-image: url('./images/email_icon.jpg');
             } */
         }
+        
+    }
 
 
-        .formContainer{
+    .formContainer{
             display: grid;
             grid-template-columns: repeat(2,1fr);
             justify-content: center;
@@ -112,7 +114,6 @@
                 }
             }
         }
-    }
 
 }
 
@@ -135,76 +136,84 @@
                     margin-right: 10px;
                     translate: 0 7px;
                 } */
-            }
+            }            
+        }
 
-            .formContainer{
-                display: grid;
-                grid-template-columns: 1fr;
-                grid-template-rows: 265px 1fr;
-                justify-content: center;
 
-                .contactContainer{
-                    max-width: 750px;
-                    padding: 10px;
 
-                    form{
-                        text-align: left;
-                        display: grid;
-                        grid-template-columns: repeat(2,1fr);
-                        justify-items: stretch;
-                        gap: 20px;
 
-                        div{
+        .formContainer{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 265px 1fr;
+            justify-content: center;
+    
+            .contactContainer{
+                /* max-width: 750px; */
+                /* padding: 10px; */
 
-                            label{
-                                display: block;
-                                color: var(--fntMainClr);
-                                font-weight: 900;
-                                width: 100%;
+                max-width: 390px;
+                padding: 10px;
+                margin: 0 auto;
+
+    
+                form{
+                    text-align: left;
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    justify-items: stretch;
+                    gap: 20px;
+    
+                    div{
+    
+                        label{
+                            display: block;
+                            color: var(--fntMainClr);
+                            font-weight: 900;
+                            width: 100%;
+                        }
+                        input,textarea{
+                            background-color: #58b0e2;
+                            border-radius: 15px;
+                            padding: 10px 7px;
+                            width: 100%;
+                        }
+    
+                        .buttonLink{
+                            width: fit-content;
+                            margin: 10px auto;
+                            background-color: var(--fntMainClr);
+                            color: #fff;
+                            border: none;
+                            border-radius: 50px;
+                            padding: 5px 25px;
+                            font-size: 1.5rem;
+                            font-weight: 900;
+                            cursor: pointer;
+                            transition: background-color 0.3s ease;            
+    
+                            &:hover{
+                                background-color: #459acb;
                             }
-                            input,textarea{
-                                background-color: #58b0e2;
-                                border-radius: 15px;
-                                padding: 10px 7px;
-                                width: 100%;
-                            }
-        
-                            .buttonLink{
-                                width: fit-content;
-                                margin: 10px auto;
-                                background-color: var(--fntMainClr);
-                                color: #fff;
-                                border: none;
-                                border-radius: 50px;
-                                padding: 5px 25px;
-                                font-size: 1.5rem;
-                                font-weight: 900;
-                                cursor: pointer;
-                                transition: background-color 0.3s ease;            
-        
-                                &:hover{
-                                    background-color: #459acb;
-                                }
-                            }
                         }
-
-                        div:nth-of-type(3){
-                            grid-row: 2/3;
-                            grid-column: span 2;
-                        }
-                        div:nth-of-type(4){
-                            grid-row: 3/4;
-                            grid-column: span 2;
-                        }
-                        div:nth-of-type(5){
-                            grid-row: 4/4;
-                            grid-column: span 2;
-                        }
-
                     }
+    
+                    div:nth-of-type(3){
+                        grid-row: 2/3;
+                        grid-column: span 2;
+                    }
+                    div:nth-of-type(4){
+                        grid-row: 3/4;
+                        grid-column: span 2;
+                    }
+                    div:nth-of-type(5){
+                        grid-row: 4/4;
+                        grid-column: span 2;
+                    }
+    
                 }
             }
         }
-
     }
+
 }
