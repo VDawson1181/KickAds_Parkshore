@@ -258,13 +258,13 @@
   :root {
     /* --font-base: "Space Mono", monospace; */
     --color-dark: #2e5da2;
-    --color-dark-glare: #57afe2;
+    --color-dark-glare: #54afe2;
     --color-success: #76f7bf;
     --color-success-dark: #2d7a59;
     --background: #20428d;
     --foreground: #171717;
     --hdrFontClr: #20428d;
-    --hdrFontSec: #57afe2;
+    --hdrFontSec: #54afe2;
     --ftrBackground: #20428d;
     --ftrFontClr: #ffffff;
     --fntMainClr: #20428d;

@@ -8,8 +8,8 @@
   #heroSection{
     height: 750px;
     overflow: hidden;
-    background-color: #57afe2;
-    border-top: 4px solid #57afe2;
+    background-color: #54afe2;
+    border-top: 4px solid #54afe2;
     /* background-color: lime; */
     display: grid;
     grid-template-rows: 1fr 1fr;

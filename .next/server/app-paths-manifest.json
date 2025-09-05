@@ -3,6 +3,6 @@
   "/page": "app/page.js",
   "/programs/page": "app/programs/page.js",
   "/activities/page": "app/activities/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/dates/page": "app/dates/page.js"
+  "/dates/page": "app/dates/page.js",
+  "/contact/page": "app/contact/page.js"
 }

@@ -324,7 +324,7 @@
   --background: #20428d;
   --foreground: #171717;
   --hdrFontClr: #20428d;
-  --hdrFontSec: #57afe2;
+  --hdrFontSec: #54afe2;
   --ftrBackground: #20428d;
   --ftrFontClr: #ffffff;
   --fntMainClr: #20428d;
@@ -380,7 +380,7 @@ header {
         position: relative;
         top: 5px;
         margin-left: 20px;
-        color: #57afe2;
+        color: #54afe2;
         &:hover {
           color: #1f418d;
         }
@@ -412,7 +412,7 @@ header {
           position: relative;
           top: -3px;
           margin-left: 10px;
-          color: #57afe2;
+          color: #54afe2;
         }
       }
     }
@@ -496,7 +496,7 @@ header {
           position: relative;
           top: 0px;
           margin-left: 0px;
-          color: #57afe2;
+          color: #54afe2;
         }
       }
     }
@@ -561,7 +561,7 @@ footer {
           font-size: 1.758em;
           position: relative;
           top: -7px;
-          color: #57afe2;
+          color: #54afe2;
           &:hover {
             color: #ffffff;
           }
@@ -575,7 +575,7 @@ footer {
           font-size: 2.238rem;
           position: relative;
           top: -3px;
-          color: #57afe2;
+          color: #54afe2;
         }
       }
     }

@@ -7,7 +7,7 @@
   --background: #20428d;
   --foreground: #171717;
   --hdrFontClr: #20428d;
-  --hdrFontSec: #57afe2;
+  --hdrFontSec: #54afe2;
   --ftrBackground: #20428d;
   --ftrFontClr: #ffffff;
   --fntMainClr: #20428d;
@@ -90,7 +90,7 @@ header{
         position: relative;
         top: 5px;
         margin-left: 20px;
-        color: #57afe2;
+        color: #54afe2;
 
           &:hover{
             color: #1f418d;
@@ -152,7 +152,7 @@ header{
           position: relative;
           top: -3px;
           margin-left: 10px;
-          color: #57afe2;
+          color: #54afe2;
         }
       }
     }
@@ -273,7 +273,7 @@ header{
           position: relative;
           top: 0px;
           margin-left: 0px;
-          color: #57afe2;
+          color: #54afe2;
         }
       }
     }  
@@ -282,7 +282,7 @@ header{
 
 /* Footer styles */
 footer{ 
-  /* border-top: 5px solid #57afe2; */
+  /* border-top: 5px solid #54afe2; */
   /* height: 120px; */
   padding: 20px 50px;
   overflow: hidden;
@@ -363,7 +363,7 @@ footer{
           position: relative;
           top: -7px;
           /* margin-left: 10px; */
-          color: #57afe2;
+          color: #54afe2;
 
           &:hover{
             color: #ffffff;
@@ -383,7 +383,7 @@ footer{
           position: relative;
           top: -3px;
           /* margin-left: 10px; */
-          color: #57afe2;
+          color: #54afe2;
         }
       }   
     }
@@ -407,7 +407,7 @@ footer{
         /* padding: 15px; */
         /* border-radius: 50%; */
         overflow: hidden;
-        /* border: solid 1px #57afe2; */
+        /* border: solid 1px #54afe2; */
       }
     }
   }
