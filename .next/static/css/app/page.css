@@ -401,7 +401,7 @@
 
     .triangleTopper{
       width: 100%;
-      height: 30px;
+      height: 70px;
       aspect-ratio: 1;
       clip-path: polygon(0 0,100% 100%,0 100%);
       background-color: #20428d;
@@ -409,7 +409,7 @@
       /* pointer-events: none; */
 
       position: absolute;
-      top: -27px;
+      top: -70px;
       left: 0;
       /* z-index: -1; */
     }
